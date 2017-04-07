@@ -39,11 +39,11 @@ import hashlib
 from collections import OrderedDict
 
 payload = [OrderedDict([
-    ("requestMethod", "getGreatBuildings"),
     ("__class__", "ServerRequest"),
+    ("requestData", []),
     ("requestClass", "InventoryService"),
     ("requestId", 6),
-    ("requestData", [])]
+    ("requestMethod", "getGreatBuildings")]
 )]
 
 encoded = json.dumps(payload).replace(' ', '')
