@@ -1,6 +1,6 @@
 # FoE Decryption
 
-Python tool and tutorial of how to decrypt the Forge of Empires Flash/SWF and generate request signatures
+Python tool and tutorial of how to decrypt the [Forge of Empires](https://en.forgeofempires.com/) Flash/SWF and generate request signatures
 
 *Purely educational and to fuel curiosity*
 
