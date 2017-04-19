@@ -49,8 +49,8 @@ payload = [OrderedDict([
 encoded = json.dumps(payload).replace(' ', '')
 
 user_key = "thisistheuserskey"
-# As of 19:00 07/04/2017 UTC (version 1491392989)
-secret = "bTsZ5/8lOyt2Nfqb8qhBDIildUIzz842pzNidXIL6/ytDWSRdtWbuC7upEcwCc/k6cuXDOppjOK/gudECEUTYQ=="
+# As of 00:00 20/04/2017 UTC (version 1492594896)
+secret = "UqO1UDI2SsDYiL/l1sANc/xCeiOXtMw5TQvcgAJgEBmcbNFbG+zS0HvqoQSOBFfRENW+JmfutSmK/8J/UsnZgw=="
 
 data = user_key + secret + encoded
 # This should be the same value you see for the 'Signature' header in the request
