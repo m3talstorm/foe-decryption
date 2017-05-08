@@ -39,18 +39,18 @@ import hashlib
 from collections import OrderedDict
 
 payload = [OrderedDict([
-    ("__class__", "ServerRequest"),
+    ("requestClass", "StartupService"),
+    ("requestId", 0),
     ("requestData", []),
-    ("requestClass", "InventoryService"),
-    ("requestId", 6),
-    ("requestMethod", "getGreatBuildings")]
+    ("__class__", "ServerRequest"),
+    ("requestMethod", "getData")]
 )]
 
 encoded = json.dumps(payload).replace(' ', '')
 
 user_key = "thisistheuserskey"
-# As of 00:00 20/04/2017 UTC (version 1492594896)
-secret = "UqO1UDI2SsDYiL/l1sANc/xCeiOXtMw5TQvcgAJgEBmcbNFbG+zS0HvqoQSOBFfRENW+JmfutSmK/8J/UsnZgw=="
+# As of 00:00 09/05/2017 UTC (version 1.100 / timestamp 1493803454)
+secret = "Pf6ILMcgjr/15VVPCvPbTeV7oLn21X5hb/UREQJdOz9skBRRY9pPZvOxJ+1a6IqVl1cgsVm8Ov5pY7EDLQVukw=="
 
 data = user_key + secret + encoded
 # This should be the same value you see for the 'Signature' header in the request
