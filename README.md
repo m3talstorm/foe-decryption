@@ -72,7 +72,7 @@ All-in-all this turned a couple of minutes exercise to craft HTTP requests into 
 
 - git clone https://github.com/m3talstorm/foe-decryption.git
 - cd foe-decryption/
-- Copy the Main.js file into the 'foe-decryption' directory
+- Copy the downloaded 'Main.swf' file into the 'foe-decryption' directory
 - Run 'python src/decryption.py'
 - This will take the Main.swf file and decrypted it into 'Main.decrypted.swf'
 
