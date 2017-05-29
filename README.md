@@ -11,6 +11,8 @@ Python tool and tutorial of how to decrypt the [Forge of Empires](https://en.for
 - Timestamp: 1496048897
 - Secret: zIHbzMRWEvJGIfftkYOYrXk06SZnu9C7LH/RMhS7LUH/Lg2WDJ+eGuloB4HUqIUR2cyInFJyN+/CMu8+WR2CHQ==
 
+:star: Star the repo if you use this, would be nice to know if people are :) :star:
+
 ---
 
 ## Explanation
