@@ -4,6 +4,15 @@ Python tool and tutorial of how to decrypt the [Forge of Empires](https://en.for
 
 *Purely educational and to fuel curiosity*
 
+## Summary
+
+- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1496048897
+- Version: 1.102
+- Timestamp: 1496048897
+- Secret: zIHbzMRWEvJGIfftkYOYrXk06SZnu9C7LH/RMhS7LUH/Lg2WDJ+eGuloB4HUqIUR2cyInFJyN+/CMu8+WR2CHQ==
+
+---
+
 ## Explanation
 
 [Forge of Empires](https://en.forgeofempires.com/) is a Flash based web and mobile game. Under the hood it uses simple HTTP requests to fetch data and perform operations whilst the game is being played, to build things, start production, collect resources, etc.
@@ -49,8 +58,8 @@ payload = [OrderedDict([
 encoded = json.dumps(payload).replace(' ', '')
 
 user_key = "thisistheuserskey"
-# As of 00:00 18/05/2017 UTC (version 1.101 / timestamp 1495012914)
-secret = "i+lRxG52jChsLWE3dMqO66XH0UrutcA3KRmoLt9mqjjflAO0wW9w4kbOYqfSePShqVqhNFX3aiCsvT9dEICMEw=="
+# As of 14:00 29/05/2017 UTC (version 1.102 / timestamp 1496048897)
+secret = "zIHbzMRWEvJGIfftkYOYrXk06SZnu9C7LH/RMhS7LUH/Lg2WDJ+eGuloB4HUqIUR2cyInFJyN+/CMu8+WR2CHQ=="
 
 data = user_key + secret + encoded
 # This should be the same value you see for the 'Signature' header in the request
@@ -60,20 +69,22 @@ signature = hashlib.md5(data).hexdigest()[0:10]
 
 All-in-all this turned a couple of minutes exercise to craft HTTP requests into a 10-15 minute exercise, not sure it was worth Innogames going through all this trouble to hide it.
 
+---
 
 ## HOW-TO
 
 ### Fetching FoE SWF files
 
-- Open up a browser with the development console open and navigate to your world (E.g: https://en1.forgeofempires.com/game/index?ref=)
-- Once the game as loaded, look in the network tab/requests and find the SWF files we are interested in: [Main.swf](https://foeen.innogamescdn.com/swf/Preloader.swf?1491392989) and [Preloader.swf](https://foeen.innogamescdn.com/swf/Preloader.swf?1491392989) and download them
+
+- Download the two files we are interested in: [Main.swf](https://foeen.innogamescdn.com/swf/Main.swf) and [Preloader.swf](https://foeen.innogamescdn.com/swf/Preloader.swf) (These should be the latest versions)
+- These can be seen in the network console of your developer tools when loading the game
 
 ### If the 'encryption' algorithm hasn't changed
 
 - git clone https://github.com/m3talstorm/foe-decryption.git
 - cd foe-decryption/
-- Copy the downloaded 'Main.swf' file into the 'foe-decryption' directory
-- Run 'python src/decryption.py'
+- wget "https://foeen.innogamescdn.com/swf/Main.swf" (or copy the downloaded 'Main.swf' file into the 'foe-decryption' directory)
+- Run `python src/decryption.py`
 - This will take the Main.swf file and decrypted it into 'Main.decrypted.swf'
 
 
