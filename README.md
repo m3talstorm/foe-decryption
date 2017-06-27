@@ -6,10 +6,10 @@ Python tool and tutorial of how to decrypt the [Forge of Empires](https://en.for
 
 ## Summary
 
-- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1497424478
-- Version: 1.103
-- Timestamp: 1497424478
-- Secret: w8dU3Cr9G+f3UBUiA9mPCDmRtF+xE5z2W9WBTZ0v36uUkghlPR+2ttldkXDqa8Vmt1eCnj5C/j3+3U2TjX+R9w==
+- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1498469762
+- Version: 1.104
+- Timestamp: 1498469762
+- Secret: oDtc9YJ7nRbNf3ui2AS/7yrFS4k4MGgjWCr6/Komfxmq9ue5EJBY1apDyRMV2fdvaLkQ3AnJrsMhWfdbSIieCw==
 
 :star: Star the repo if you use this, would be nice to know if people are :) :star:
 
@@ -60,8 +60,8 @@ payload = [OrderedDict([
 encoded = json.dumps(payload).replace(' ', '')
 
 user_key = "thisistheuserskey"
-# As of 20:00 15/06/2017 UTC (version 1.103 / timestamp 1497424478)
-secret = "w8dU3Cr9G+f3UBUiA9mPCDmRtF+xE5z2W9WBTZ0v36uUkghlPR+2ttldkXDqa8Vmt1eCnj5C/j3+3U2TjX+R9w=="
+# As of 12:00 27/06/2017 UTC (version 1.104 / timestamp 1498469762)
+secret = "oDtc9YJ7nRbNf3ui2AS/7yrFS4k4MGgjWCr6/Komfxmq9ue5EJBY1apDyRMV2fdvaLkQ3AnJrsMhWfdbSIieCw=="
 
 data = user_key + secret + encoded
 # This should be the same value you see for the 'Signature' header in the request
