@@ -2,6 +2,8 @@
 
 Python tool and tutorial of how to decrypt the [Forge of Empires](https://en.forgeofempires.com/) Flash/SWF and generate request signatures
 
+Used by [FoE Bot](https://github.com/m3talstorm/foe-bot) for request signature generation.
+
 *Purely educational and to fuel curiosity*
 
 ## Summary
