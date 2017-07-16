@@ -8,10 +8,10 @@ Used by [FoE Bot](https://github.com/m3talstorm/foe-bot) for request signature g
 
 ## Summary
 
-- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1498469762
-- Version: 1.104
-- Timestamp: 1498469762
-- Secret: oDtc9YJ7nRbNf3ui2AS/7yrFS4k4MGgjWCr6/Komfxmq9ue5EJBY1apDyRMV2fdvaLkQ3AnJrsMhWfdbSIieCw==
+- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1499851925
+- Version: 1.105
+- Timestamp: 1499851925
+- Secret: dmy6eqDhBz1t/B+nPZfTXqLw0v1z+y9zTzsB2CJiWkexUjvKmxsovkcMGxe2eWhXvbOM3VWHmPBQj7bDSEzC0w==
 
 :star: Star the repo if you use this, would be nice to know if people are :) :star:
 
@@ -62,8 +62,8 @@ payload = [OrderedDict([
 encoded = json.dumps(payload).replace(' ', '')
 
 user_key = "thisistheuserskey"
-# As of 12:00 27/06/2017 UTC (version 1.104 / timestamp 1498469762)
-secret = "oDtc9YJ7nRbNf3ui2AS/7yrFS4k4MGgjWCr6/Komfxmq9ue5EJBY1apDyRMV2fdvaLkQ3AnJrsMhWfdbSIieCw=="
+# As of 12:00 27/06/2017 UTC (version 1.105 / timestamp 1499851925)
+secret = "dmy6eqDhBz1t/B+nPZfTXqLw0v1z+y9zTzsB2CJiWkexUjvKmxsovkcMGxe2eWhXvbOM3VWHmPBQj7bDSEzC0w=="
 
 data = user_key + secret + encoded
 # This should be the same value you see for the 'Signature' header in the request
