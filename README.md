@@ -8,10 +8,10 @@ Used by [FoE Bot](https://github.com/m3talstorm/foe-bot) for request signature g
 
 ## Summary
 
-- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1504523955
-- Version: 1.109
-- Timestamp: 1504523955
-- Secret: Blg4K7dNtoqxpnyLh+EDB8e+EWufq6Bz0SlCkkYZWcFb7y85xYz7E73POdcF2/GKu59t5Jko3BMrJ95tApPdLA==
+- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1505727131
+- Version: 1.110
+- Timestamp: 1505727131
+- Secret: De6vq4IMP1dq4SJbpU7sT0lBXTerwMfdOaWCl5vv+SCVJX9d9twob307JZJBsyWmdyAUm9Z5Esn555lz9CVYBg==
 
 :star: Star the repo if you use this, would be nice to know if people are :) :star:
 
