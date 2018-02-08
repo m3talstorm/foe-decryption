@@ -7,10 +7,10 @@ Used by [FoE Bot](https://github.com/m3talstorm/foe-bot) for request signature g
 *Purely educational and to fuel curiosity*
 
 ## Summary
-- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1511779469
-- Version: 1.116
-- Timestamp: 1513162258
-- Secret: Ob90uMKvbFGtB7/yWM19s51P/hOnbg289yT4V7qHTs8qTr/vefAMsYesk21tRIxi7Gx/9byISR/a3nqz53QuyQ==
+- Binary: https://foeen.innogamescdn.com/swf/Main.swf?1518000888
+- Version: 1.119
+- Timestamp: 1518000888
+- Secret: 6q01Zd9YKTSEVjhtqqGEYjBGr3pUTRFojYL+m2/6GorQ892bVcY4QMoqLbc6A+DhXQEaMtZfkczMgiHt3tVJ4w==
 
 :star: Star the repo if you use this, would be nice to know if people are :) :star:
 
